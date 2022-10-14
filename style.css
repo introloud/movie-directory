@@ -105,5 +105,4 @@ main {
 
 .movie:hover .overview{
     transform: translateY(0);
-    overflow: scroll;
 }
