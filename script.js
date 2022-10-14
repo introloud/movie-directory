@@ -36,16 +36,11 @@ const showMovies = (data => {
 
 const getMovies = (url => {
   fetch(url).then(res => res.json()).then(data => {
-    console.log(data.results);
     showMovies(data.results);
   });
 });
 getMovies(API_URL);
 
-/**
- * \getRatingColor
- * simply changes the background color of the rating block to distinguish from good ratings to worst
-*/
 const getRatingColor = (vote => {
   if(vote >= 7) {
     return 'green';
