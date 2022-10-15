@@ -4,6 +4,6 @@ Movie Directory is a simple web app that uses TMDB (The Movie Database) API to l
 
 The Movie Database (TMDB) is just a popular, user editable database for movies and TV shows.
 
-Live Demo of the website: [](https://movies-directory-sm.netlify.app/)
+Live Demo of the website: [https://movies-directory-sm.netlify.app/](https://movies-directory-sm.netlify.app/)
 
 ![Landing Page image](/landing-page.png "land page")
